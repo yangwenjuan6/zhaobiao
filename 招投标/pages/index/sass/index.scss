@@ -206,12 +206,19 @@ table{ border-collapse:collapse;}
 }
 /*side information list*/
 .info_list{
-	width:200px;
-	height:420px;
+	width:265px;
+	height:600px;
 	position:absolute;
 	left:0;
-	bottom:63;
+	bottom:0;
 	background:url(../img/iphone.png) no-repeat;
-	transform:skewY(-15deg);
-	-webkit-transform:skewY(-15deg); /* Safari and Chrome */
+	& ul{
+		margin-left:52px;
+		margin-top:125px;
+		& li{
+			font-size:12px;
+			transform:skewY(12deg);
+			-webkit-transform:skewY(12deg); /* Safari and Chrome */
+		}
+	}
 }

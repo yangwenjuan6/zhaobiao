@@ -21,3 +21,162 @@ table {
   .bg img {
     width: 100%;
     height: auto; }
+
+/*login and register*/
+.login_content {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(219, 215, 203, 0.3); }
+  .login_content .un {
+    margin: 50px 25px 0px 25px;
+    width: 170px;
+    background: #fff;
+    display: block;
+    height: 25px;
+    border: 1px #cdcdcd solid;
+    border-radius: 5px; }
+    .login_content .un label {
+      background: url(../img/input_icons.png) no-repeat 0 -68px;
+      display: block;
+      width: 6px;
+      height: 20px;
+      border-right: 1px #cdcdcd solid;
+      float: left;
+      overflow: hidden;
+      padding: 0px 0px 0px 24px;
+      z-index: 20;
+      margin-top: 2px; }
+    .login_content .un input {
+      width: 135px;
+      height: 23px;
+      float: left;
+      border: 1px #fff solid;
+      appearance: none;
+      -webkit-appearance: none;
+      outline: none;
+      text-indent: 6px; }
+  .login_content .pwd {
+    width: 170px;
+    background: #fff;
+    display: block;
+    height: 25px;
+    margin: 10px 25px 0px 25px;
+    border: 1px #cdcdcd solid;
+    border-radius: 5px; }
+    .login_content .pwd label {
+      background: url(../img/input_icons.png) no-repeat 0 -147px;
+      display: block;
+      float: left;
+      border-right: 1px #cdcdcd solid;
+      width: 6px;
+      height: 20px;
+      overflow: hidden;
+      padding: 0px 0px 0px 24px;
+      z-index: 20;
+      margin-top: 2px; }
+    .login_content .pwd input {
+      width: 135px;
+      height: 23px;
+      float: left;
+      border: 1px #fff solid;
+      appearance: none;
+      -webkit-appearance: none;
+      outline: none;
+      text-indent: 6px; }
+  .login_content .btn {
+    margin: 30px 45px 0px 45px;
+    width: 130px;
+    height: 30px;
+    font-size: 12px; }
+    .login_content .btn .button_box {
+      float: left; }
+      .login_content .btn .button_box .register {
+        height: 20px;
+        width: 60px;
+        background: #9b9b9b;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 5px;
+        margin-right: 10px; }
+      .login_content .btn .button_box .login {
+        height: 20px;
+        width: 60px;
+        background: #44a7ed;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 5px; }
+
+/*side menu*/
+.side_menu {
+  width: 80px;
+  height: 340px;
+  background: #d9d9d9;
+  position: absolute;
+  right: 10px;
+  bottom: 35px; }
+  .side_menu ul li:nth-of-type(1) label {
+    height: 60px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../img/icons.jpg) no-repeat -220px -565px;
+    display: block;
+    height: 60px; }
+  .side_menu ul li:nth-of-type(1) div {
+    font-size: 12px;
+    text-align: center; }
+  .side_menu ul li:nth-of-type(2) label {
+    height: 60px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../img/icons.jpg) no-repeat -294px -405px;
+    display: block;
+    height: 60px; }
+  .side_menu ul li:nth-of-type(2) div {
+    font-size: 12px;
+    text-align: center; }
+  .side_menu ul li:nth-of-type(3) label {
+    height: 60px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../img/icons.jpg) no-repeat -66px -330px;
+    display: block;
+    height: 60px; }
+  .side_menu ul li:nth-of-type(3) div {
+    font-size: 12px;
+    text-align: center; }
+  .side_menu ul li:nth-of-type(4) label {
+    height: 60px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    background: url(../img/icons.jpg) no-repeat -295px -332px;
+    display: block;
+    height: 60px; }
+  .side_menu ul li:nth-of-type(4) div {
+    font-size: 12px;
+    text-align: center; }
+  .side_menu ul li:nth-of-type(5) div {
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    margin-top: 10px; }
+
+/*side information list*/
+.info_list {
+  width: 200px;
+  height: 420px;
+  position: absolute;
+  left: 0;
+  bottom: 63;
+  background: url(../img/iphone.png) no-repeat;
+  transform: skewY(-15deg);
+  -webkit-transform: skewY(-15deg);
+  /* Safari and Chrome */ }

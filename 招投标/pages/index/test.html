@@ -4,18 +4,70 @@
 	<meta charset="UTF-8">
 	<title>ceshi</title>
 	<style>
-		ul li{
-			transform:translate3d(10px,0px,0px);
-			-webkit-transform:translate3d(10px,0px,0px); /* Safari and Chrome */
+		.inform-list ul{
+			width:300px;
+			height:300px;
+			margin-top:100px;
+			transform:skewY(-25deg);
+			-webkit-transform:skewY(-25deg); /* Safari and Chrome */
+		}
+		.operate-menu{
+			width:630px;
+			height:320px;
+			background-color:#c7ceca;
+		}
+		.toubiaoyewu , .box-1 , .box-2{
+			width:200px;
+			height:300px;
+			float:left;
+			margin-right:10px;
+			margin-top:10px;
+		}
+		.toubiaoyewu{
+			background-color:#4a8fdc;
+			/*transform:rotateX(-25deg);
+			-webkit-transform:rotateX(-25deg);*/
+
+		}
+		.box-1 div:nth-of-type(1){
+			background-color:#ff5841;
+			height:145px;
+		}
+		.box-1 div:nth-of-type(2){
+			background-color:#eeb13b;
+			height:145px;
+			margin-top:10px;
+		}
+		.box-2 div:nth-of-type(1){
+			background-color:#61b9b7;
+			height:145px;
+		}
+		.box-2 div:nth-of-type(2){
+			background-color:#a8c96d;
+			height:145px;
+			margin-top:10px;
 		}
 	</style>
 </head>
 <body>
-	<ul>
-		<li>国家电网信息通告</li>
-		<li>国家电网信息通告</li>
-		<li>国家电网信息通告</li>
-		<li>国家电网信息通告</li>
-	</ul>
+	<div class="inform-list">
+		<ul>
+			<li><a>测试测试测试测试</a></li>
+			<li><a>测试测试测试测试</a></li>
+			<li><a>测试测试测试测试</a></li>
+			<li><a href="index.html">测试测试测试测试</a></li>
+		</ul>
+	</div>
+	<div class="operate-menu">
+		<div class="toubiaoyewu">投标业务</div>
+		<div class="box-1">
+			<div>合同管路</div>
+			<div>业务咨询</div>
+		</div>
+		<div class="box-2">
+			<div>订单查询</div>
+			<div>信息咨询</div>
+		</div>
+	</div>
 </body>
 </html>

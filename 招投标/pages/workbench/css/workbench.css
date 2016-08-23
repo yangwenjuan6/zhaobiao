@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "微软雅黑"; }
+
+table {
+  border-collapse: collapse; }
+
+.mainbody .left_side {
+  width: 250px;
+  height: 775px;
+  float: left;
+  background: #f2f2f2; }
+  .mainbody .left_side .oper_title ul {
+    width: 250px; }
+    .mainbody .left_side .oper_title ul li {
+      width: 49%;
+      height: 30px;
+      display: inline-block;
+      line-height: 30px;
+      text-indent: 10px; }
+    .mainbody .left_side .oper_title ul li:nth-of-type(1) {
+      color: #3dcfff;
+      font-weight: 900; }
+    .mainbody .left_side .oper_title ul li:nth-of-type(2) {
+      color: #cdcdcd;
+      text-indent: 30px; }
+      .mainbody .left_side .oper_title ul li:nth-of-type(2) a {
+        font-size: 12px;
+        color: #cdcdcd; }
+        .mainbody .left_side .oper_title ul li:nth-of-type(2) a:hover {
+          color: #8a8585; }
+  .mainbody .left_side .title_line ul {
+    width: 250px;
+    height: 5px;
+    background: #ffffff; }
+    .mainbody .left_side .title_line ul li {
+      width: 49%;
+      height: 5px; }
+    .mainbody .left_side .title_line ul li:nth-of-type(1) {
+      background: #3dcfff;
+      border: 1px #3dcfff solid;
+      border-radius: 10px; }
+  .mainbody .left_side .img_content {
+    margin: 30px auto;
+    text-align: center; }
+    .mainbody .left_side .img_content img {
+      width: 120px;
+      height: 100px;
+      margin: 0 auto; }
+  .mainbody .left_side .account_details ul {
+    width: 155px;
+    margin: 0 auto;
+    list-style: none; }
+    .mainbody .left_side .account_details ul li {
+      font-size: 12px;
+      height: 35px;
+      line-height: 35px; }
+.mainbody .recommand_service {
+  width: 1323px;
+  height: 230px;
+  background: #f2f2f2;
+  margin-left: 10px;
+  float: left; }
+  .mainbody .recommand_service .r_title {
+    height: 30px;
+    color: #3dcfff;
+    font-weight: 900;
+    line-height: 30px;
+    text-indent: 10px; }
+  .mainbody .recommand_service .oper_line ul {
+    width: 100%;
+    height: 5px;
+    background: #ffffff;
+    list-style: none; }
+    .mainbody .recommand_service .oper_line ul li {
+      width: 10%;
+      height: 5px; }
+    .mainbody .recommand_service .oper_line ul li:nth-of-type(1) {
+      background: #3dcfff;
+      border: 1px #3dcfff solid;
+      border-radius: 10px; }
+  .mainbody .recommand_service .operate_items {
+    margin-top: 30px; }
+    .mainbody .recommand_service .operate_items ul {
+      width: 100%;
+      height: 50px;
+      list-style: none;
+      display: inline-block; }
+      .mainbody .recommand_service .operate_items ul li {
+        width: 20%;
+        display: inline-block;
+        text-align: center; }
+        .mainbody .recommand_service .operate_items ul li img {
+          margin: 0 auto;
+          width: 90px; }
+        .mainbody .recommand_service .operate_items ul li p {
+          color: #fda87c;
+          font-weight: 900; }

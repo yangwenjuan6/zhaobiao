@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 	<title>服务大厅</title>
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
+	<link rel="stylesheet" type="text/css" href="css/index.css"></head>
+	<link rel="stylesheet" type="text/css" href="../../css/animate.css">
 <body>
 	<div class="bg">
 		<img src="img/bg.jpg" />
 	</div>
 	<!-- 顶部登陆注册页 -->
-	<div class="login_content">
+	<div class="login_content downs" style="visibility: visible; animation-name:downs;">
 		<form>
 			<p class="un">
 				<label></label>
@@ -34,41 +32,139 @@
 		</form>
 	</div>
 	<!-- 侧边信息列表 -->
-	<div class="info_list">
+	<div class="info_list opacity" style="visibility: visible; animation-name: lineMove;">
 		<ul>
-			<li>关于国家电网公司2016年</li>
-			<li>关于国家电网公司2016年</li>
-			<li>关于国家电网公司2016年</li>
-			<li>关于国家电网公司2016年</li>
-			<li>关于国家电网公司2016年</li>
-			<li>关于国家电网公司2016年</li>
-			<li>关于国家电网公司2016年</li>
-			<li>关于国家电网公司2016年</li>
+			<li>
+				<a href="#">招标采购信息</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
+			<li>
+				<a href="#">关于国家电网公司2016年</a>
+			</li>
 		</ul>
 	</div>
 	<!-- 侧边悬浮窗 -->
-	<div class="side_menu">
+	<div class="side_menu scale " style="visibility: visible; animation-name:scale;">
 		<ul>
 			<li>
-				<label></label>
-				<div>智能问答</div>
+				<a href="#">
+					<label></label>
+					智能问答
+				</a>
 			</li>
 			<li>
-				<label></label>
-				<div>移动端</div>
+				<a href="#">
+					<label></label>
+					移动端
+				</a>
 			</li>
 			<li>
-				<label></label>
-				<div>新手指南</div>
+				<a href="#">
+					<label></label>
+					   新手指南
+				</a>
 			</li>
 			<li>
-				<label></label>
-				<div>下载中心</div>
+				<a href="#">
+					<label></label>
+					   下载中心
+				</a>
 			</li>
-			<li>
+			<!-- <li>
 				<div>收起</div>
-			</li>
+			</li> -->
 		</ul>
+		<div class="shouqi">收起</div>
+		<div class="hide_icon"><label></label></div>
 	</div>
+	<!-- 取票机模块 -->
+	<div class="operate-menu opacity" style="visibility: visible; animation-name: lineMove;">
+		<div class="welcome_tips">欢迎您，供应商网上服务大厅为您提供以下服务</div>
+		<div class="toubiaoyewu">
+			<a href="#">
+				<label>投标业务</label>
+				<span class="img">
+					<img src="img/f5.png" />
+				</span>
+			</a>
+		</div>
+		<div class="box-1">
+			<div>
+				<a href="#">
+					<label>合同管路</label>
+					<span class="img">
+						<img src="img/f1.png" />
+					</span>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<label>业务咨询</label>
+					<span class="img">
+						<img src="img/f2.png" />
+					</span>
+				</a>
+			</div>
+		</div>
+		<div class="box-2">
+			<div>
+				<a href="#">
+					<label>订单查询</label>
+					<span class="img">
+						<img src="img/f3.png" />
+					</span>
+				</a>
+			</div>
+			<div>
+				<a href="#">
+					<label>信息咨询</label>
+					<span class="img">
+						<img src="img/f4.png" />
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="foot_box">
+			<span>
+			<img src="img/foot_log.jpg" style="width:100px;height:60px;">
+			</span>
+			<span>
+				<p>业务咨询电话: 025-8102222 | 技术支持电话: 025-41022170 | 传真: 025-81022222 | 邮编: 210036</p>
+				<p>地址:江苏省南京市鼓楼区凤凰西街243号</p>
+				<p>Copyright@ 2015-2023 国网江苏电力公司版权所有 京ICP备09055871号  国网安备100925358号</p>
+			</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="../../js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

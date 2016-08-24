@@ -1,4 +1,5 @@
 $(function(){
+	/*侧边悬浮窗显示和隐藏*/
 	$(".shouqi").click(function() {
 		$(".side_menu ul").slideUp();
 		$(".shouqi").slideUp();

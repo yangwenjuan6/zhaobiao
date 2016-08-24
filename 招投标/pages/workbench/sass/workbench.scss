@@ -3,9 +3,10 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select{margin: 0;padding: 0;border: 0; font-family:"微软雅黑";}
 table{ border-collapse:collapse;}
 .mainbody{
+	width:1650px;
 	.left_side{
 		width:250px;
-		height:775px;
+		height:800px;
 		float:left;
 		background:#f2f2f2;
 		.oper_title{
@@ -75,55 +76,210 @@ table{ border-collapse:collapse;}
 			}
 		}
 	}
-	.recommand_service{
-		width:1323px;
-		height:230px;
-		background:#f2f2f2;
-		margin-left:10px;
+	.right_main{
+		width:1400px;
 		float:left;
-		.r_title{
-			height:30px;
-			color:#3dcfff;
-			font-weight:900;
-			line-height:30px;
-			text-indent:10px;
-		}
-		.oper_line{
-			& ul{
-				width:100%;
-				height:5px;
-				background:#ffffff;
-				list-style:none;
-				// border:1px #ffffff solid;
-				& li{
-					width:10%;
+		.recommand_service{
+			width:1390px;
+			height:230px;
+			background:#f2f2f2;
+			margin-left:10px;
+			float:left;
+			.r_title{
+				height:30px;
+				color:#3dcfff;
+				font-weight:900;
+				line-height:30px;
+				text-indent:10px;
+			}
+			.oper_line{
+				& ul{
+					width:100%;
 					height:5px;
+					background:#ffffff;
+					list-style:none;
+					& li{
+						width:10%;
+						height:5px;
+					}
+					& li:nth-of-type(1){
+						background:#3dcfff;
+						border:1px #3dcfff solid;
+						border-radius:10px;
+					}
 				}
-				& li:nth-of-type(1){
-					background:#3dcfff;
-					border:1px #3dcfff solid;
-					border-radius:10px;
+			}
+			.operate_items{
+				margin-top:30px;
+				float:left;
+				width:1000px;
+				height:132px;
+				display: block;
+	    		position: relative;
+	    		overflow:hidden;
+				#myscrollbox{
+					display:block;
+				    float:left;
+				    position: absolute;
+				    left: 0;
+				    top: 0;
+				    width: 1000000px;
+				    & ul{
+						width:100%;
+						list-style:none;
+						display:inline-block;
+						padding: 0;
+		   				margin: 0;
+		   				overflow:hidden;
+						& li{
+							width:246px;
+							display:inline-block;
+							text-align:center;
+							& img{
+								margin:0 auto;
+								width:90px;
+							}
+							& p{
+								color:#fda87c;
+								font-weight:900;
+							}
+						}
+					}
+				}
+			}
+			.left_btn{
+				height:195px;
+				width:95px;
+				float:left;
+				& label{
+					height:55px;
+					width:55px;
+					float:left;
+					background:url(../img/sprite-icons.png) no-repeat -9px -612px;
+					margin:70px 20px;
+					display:none;
+				}
+			}
+			.right_btn{
+				height:195px;
+				width:95px;
+				float:left;
+				position:relative;
+				z-index:10;
+				& label{
+					height:55px;
+					width:55px;
+					float:left;
+					background:url(../img/sprite-icons.png) no-repeat -9px -667px;
+					margin:70px 20px;
+					display:none;
 				}
 			}
 		}
-		.operate_items{
-			margin-top:30px;
-			& ul{
+		.tender_list{
+			width:1390px;
+			height:560px;
+			background:#f2f2f2;
+			margin:10px 0px 0px 10px;
+			float:left;
+			.tab_title{
 				width:100%;
 				height:50px;
-				list-style:none;
-				display:inline-block;
-				& li{
-					width:20%;
-					display:inline-block;
-					text-align:center;
-					& img{
-						margin:0 auto;
-						width:90px;
+				background:#ffffff;
+				border-bottom:5px #33ccff solid;
+				& ul{
+					width:305px;
+					height:50px;
+					line-height:50px;
+					list-style-type:none;
+					display:block;
+					& li{
+						width:150px;
+						float:left;
+						background:#f2f2f2;
+						text-align:center;
+						display:inline-block;
+						font-weight:600;
 					}
-					& p{
-						color:#fda87c;
-						font-weight:900;
+					& li:nth-of-type(1){
+						margin-right:5px;
+					}
+					.tab_selected{
+						background:#33ccff;
+						color:#ffffff;
+					}
+				}
+			}
+			.tab_line{
+				width:100%;
+				height:5px;
+				float:left;
+				background:#ffffff;
+			}
+			.tab_content{
+				width:100%;
+				height:475px;
+				float:left;
+				border-top:5px #33ccff solid;
+				.content_item1{
+					width:100%;
+					height:475px;
+					& ul{
+						list-style-type:none;
+						& li{
+							.s_title{
+								margin:20px;
+							}
+							.pro_process{
+								height:130px;
+								margin-top:65px;
+								background:url(../img/tab_bg.png) no-repeat 0 -59px;
+								& ul{
+									margin-left:100px;
+									& li{
+										height:125px;
+										line-height:125px;
+										width:182px;
+										margin-right:7px;
+										text-align:center;
+										display:inline-block;
+										float:left;
+										& label{
+											&:hover{
+												color:#ffffff;
+											}
+										}
+									}
+									& li:nth-of-type(4) label , & li:nth-of-type(5) label , & li:nth-of-type(6) label{
+										color:#ccc;
+										// & label{
+										// 	&:hover{
+										// 		color:#ffffff;
+										// 	}
+										// }
+									}
+								}
+							}
+						}
+					}
+				}
+				.content_item2{
+					width:100%;
+					height:475px;
+					& ul{
+						margin:10px 0px 0px 30px;
+						list-style-type:none;
+						& li{
+							& a{
+								height:35px;
+								line-height:35px;
+								font-size:14px;
+								color:#2b2b2b;
+								&:hover{
+									color:#8c8cf7;
+								}
+							}
+						}
 					}
 				}
 			}
